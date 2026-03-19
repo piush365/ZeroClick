@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Secrets — NEVER commit these
+backend/.env
+backend/core/token.pickle
+backend/core/credentials.json
+
+# Test files
+test_llm.py
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
